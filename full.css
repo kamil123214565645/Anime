@@ -1,0 +1,64 @@
+header {
+    background-image: url("https://klike.net/uploads/posts/2022-11/1667881653_1.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+}
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 0, 55);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.menu-item {
+    border: 1px solid blue;
+    background-color: darkcyan;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    color: wheat;
+}
+.menu-item:hover {
+    color: blue;
+    background-color: chartreuse;
+}
+h3, h2, h4, h5, h6, h7{
+    text-align: center;
+}
+main {
+
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+ height: 300px;
+}
+.text-video{
+    display: flex;
+    justify-content: space-between;
+}
+.text-space {
+    padding: 20px;
+    border: 1px solid darkblue;
+    margin-left:10px;
+}
+body{
+    background-color: rgb(238, 103, 85);
+}
+table {
+    border: 1px solid black;
+    width: 900px;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
