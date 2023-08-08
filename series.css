@@ -1,0 +1,56 @@
+header {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230525/pngtree-anime-city-lighting-by-starry-sky-wallpaper-on-desktop-919x-image_2619556.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+}
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 0, 55);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.menu-item {
+    border: 1px solid blue;
+    background-color: darkcyan;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    color: wheat;
+}
+.menu-item:hover {
+    color: blue;
+    background-color: chartreuse;
+}
+h3, h2, h4, h5, h6, h7{
+    text-align: center;
+}
+main {
+
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+ height: 300px;
+}
+.text-video{
+    display: flex;
+    justify-content: space-between;
+}
+.text-space {
+    padding: 20px;
+    border: 1px solid darkblue;
+    margin-left:10px;
+}
+body{
+    background-color: rgb(61, 131, 211);
+}
